@@ -10,7 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text className="font-bold text-lg text-emerald-500 my-10">Welcome to the Real Estate App!</Text>
+      <Text className="font-bold text-danger my-10 font-monospace text-3xl">Welcome to the Real Estate App!</Text>
       <Link href="/sign-in">Sign In</Link>
       <Link href="/explore">Explore</Link>
       <Link href="/profile">Profile</Link>
